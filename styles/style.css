@@ -19,6 +19,21 @@
     border: none;
     font-weight: 600;
 }
+.global-section-title{
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: bold;
+}
+.global-card-title{
+    color: rgb(14, 14, 14,0.8);
+    font-size: 20px;
+    font-weight: bold;
+}
+.global-text{
+    font-size: 1rem;
+    color: rgb(14, 14, 14,0.7);
+}
+
 /* global style end here */
 /* navbar start here  */
 nav{
@@ -74,3 +89,123 @@ nav>button{
     font-size: 56px;
 }
 /* hero section end here */
+/* pillar section start here */
+ #pillar{
+    padding: 80px 192px;
+ }
+ .piller-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+ }
+.pillar-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.pillar-card{
+    width: 360px;
+    border: 1px solid rgb(14, 14, 14,0.15);
+    padding: 29px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+}
+.pillar-card img{
+    margin-bottom: 12px;
+}
+
+/* pillar section end here */
+/* future vission section start here */
+    #future-vision{
+        padding: 40px 192px;
+    }
+    .future-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 32px;
+    }
+    .future-cards{
+        display: flex;
+        justify-content: space-between;
+    }
+    .future-card{
+        border-radius: 16px;
+        width: 492px;
+        padding: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .future-card:nth-child(1){
+        background-color: rgb(84, 144, 245,0.2);
+    }
+    .future-card:nth-child(2){
+        background-color:#C6E4D6;
+    }
+    .future-card:nth-child(3){
+        background-color: #F7EBCF;
+    }
+    .global-card-btn{
+        padding: 11px 20px;
+        color: #fff;
+        border-radius: 8px;
+        border: none;
+        margin-top: 20px;
+    }
+    .card-btn-1{
+        background-color: #5490F5;
+    }
+    .card-btn-2{
+        background-color: #09A15C;
+    }
+    .card-btn-3{
+        background-color: #FFC239;
+    }
+    .future-speace{
+        border-radius: 16px;
+        padding: 48px 24px;
+        border: 1px solid rgb(14, 14, 14,0.15);
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 10px;
+        background-image: url("../assets/quote-bg.png");
+        background-repeat: no-repeat;
+        background-position: 24px 25px;
+    }
+/* future vission section end here */
+
+
+
+
+@media (max-width:1600px) {
+    nav{
+        padding: 25px 160px;
+    }
+    #hero{
+        padding: 15px 160px;
+    }
+    #pillar{
+        padding: 80px 160px;
+    }
+    #future-vision{
+        padding: 40px 160px;
+    }
+    .pillar-card{
+        width: 300px;
+        height: 244px;
+    }
+    .future-card{
+        width: 410px;
+        height: 325px;
+
+    }
+}
