@@ -8,7 +8,10 @@
     padding: 0;
     box-sizing: border-box;
 }  
-
+body{
+    background-color: #F1F1F3;
+    overflow-x: hidden;
+}
 /* global style start here */
 .global-btn{
     padding: 17px 34px;
@@ -180,8 +183,215 @@ nav>button{
         background-image: url("../assets/quote-bg.png");
         background-repeat: no-repeat;
         background-position: 24px 25px;
+        background-color: #fff;
     }
 /* future vission section end here */
+
+/* opinion section start here */
+#opinion{
+    padding: 40px 192px;
+    
+}
+.opinion-content h1{
+    margin-bottom: 24px;
+}
+.opinion-chart{
+   background-color: #fff;
+   padding: 32px;
+   border-radius: 16px;
+}
+.opinion-chart-content{
+    border: 1px solid rgb(14, 14, 14,0.15);
+    /* padding: 24px; */
+}
+.opinion-heading{
+    border-bottom:1px solid rgb(14, 14, 14,0.15) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    background-color: #C6E4D6;
+
+}
+.opinion-body{
+    display: flex;
+    /* padding: 24px; */
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(14, 14, 14,0.15);
+}
+.opinion-body:nth-child(4){
+    border-bottom: none;
+}
+.opinion-body-left{
+    width: 90%;
+    border-right: 1px solid rgb(14, 14, 14,0.15);
+    padding: 24px 60px 24px 24px;
+}
+.opinion-body-right{
+    padding: 24px;
+  
+}
+#opn{
+    padding: 10px 10px;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #C6E4D6;
+    border-radius: 4px;
+}
+.opinion-heading h4{
+    font-size: 20px;
+    color: #0E0E0E;
+}
+.opinion-body h5{
+  color: #0E0E0E;
+  font-size: 16px;
+}
+/* opinion section end here */
+/* recent news section start here */
+#recent-news{
+    padding: 40px 192px;
+}
+.recent-news-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.news-content{
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 57px;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.news-content>img{
+    width: 490px;
+    border-radius: 24px;
+}
+.news-text{
+    width: 890px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+/* recent news section end here */
+/* donate section start here */
+#donate{
+    padding: 40px 192px;
+}
+.donate-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:32px ;
+}
+.donate-boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    
+}
+.donate-box{
+    border: 1px solid rgb(14, 14, 14,0.15);
+    padding: 40px;
+    border-radius: 16px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all ease-in 0.1s;
+}
+.donate-box:nth-child(2){
+    background-color: #C6E4D6;
+}
+.donate-box:nth-child(2):hover{
+    background-color: antiquewhite;
+}
+.donate-box:nth-child(1):hover{
+    background-color: #C6E4D6;
+}
+.donate-box:nth-child(3):hover{
+    background-color: #F7EBCF;
+}
+.donate-box:nth-child(4):hover{
+    background-color: #C6E4D6;
+}
+.donate-content input{
+    border: none;
+    border-bottom: 1px solid rgb(14, 14, 14,0.15);
+    padding: 20px 400px;
+    color: rgb(14, 14, 14,0.3);
+    font-size: 20px;
+}
+/* donate section end here */
+/* newsletter section start here */
+#news-letter{
+    padding: 40px 192px;
+}
+.news-letter-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:24px ;
+    padding: 80px 265px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+}
+.input-field label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+#info{
+    border: none;
+    padding: 18.5px 40px;
+    width: 600px;
+    font-size: 16px;
+    color: rgb(14, 14, 14,0.3);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+#input-btn{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    font-size: 18px;
+    padding: 17px 34px;
+    font-weight: 500;
+}
+/* newslette section end here */
+/* footer start here */
+footer{
+    background-color: #fff;
+}
+.footer-content>h1{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.footer-content{
+    padding: 50px 192px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.footer-social{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+/* footer end here */
 
 
 
@@ -197,6 +407,19 @@ nav>button{
         padding: 80px 160px;
     }
     #future-vision{
+        padding: 40px 160px;
+    }
+    #opinion{
+        padding: 40px 160px;
+        
+    }
+    #recent-news{
+        padding: 40px 160px;
+    }
+    #donate{
+        padding: 40px 160px;
+    }
+    #news-letter{
         padding: 40px 160px;
     }
     .pillar-card{
