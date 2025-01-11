@@ -21,6 +21,13 @@ body{
     font-size: 18px;
     border: none;
     font-weight: 600;
+    transition: all ease-in 0.3s;
+    cursor: pointer;
+}
+.global-btn:hover{
+    background-color: transparent;
+    border: 1px solid rgb(14, 14, 14,0.15) ;
+    color: #0E0E0E;
 }
 .global-section-title{
     color: #0E0E0E;
@@ -60,6 +67,12 @@ nav>button{
     border: 1px solid #006A50;
     background-color: transparent;
     cursor: pointer;
+    transition: all ease-in 0.3s;
+}
+nav>button:hover{
+    background-color: #006A50;
+    color: #fff;
+    border: none;
 }
 /* navbar end here */
 /* hero section start here */
@@ -160,7 +173,14 @@ nav>button{
         color: #fff;
         border-radius: 8px;
         border: none;
-        margin-top: 20px;
+        margin-top: 30px;
+        transition: all ease-in 0.3s;
+        cursor: pointer;
+    }
+    .global-card-btn:hover{
+        background-color: transparent;
+        color: #0E0E0E;
+        border: 1px solid rgb(14, 14, 14,0.15) ;
     }
     .card-btn-1{
         background-color: #5490F5;
